@@ -1,0 +1,468 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0041)http://web.missouri.edu/~itch9/index.html -->
+
+<html>
+
+<head><title>Visualization- Assignment 2</title>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8"><link 
+href="stylecss.css" type="text/css" rel="stylesheet">
+<meta content="MSHTML 6.00.6000.16481" name=GENERATOR>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+}
+-->
+</style>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
+
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+          ['Ethical Concerns', 'Frequency', {role: 'annotation'}],
+          ['1. AI technology can be developed and used to create autonomous weapons', 13, '36.11%'],
+          ['2. AI technology should be allowed to creat art, music, or literature without human involvement', 17, '47.22%'],
+          ['3. AI technology can pose a threat to human in the future', 19, '52.78%'],
+          ['4. AI technology should be programmed to prioritize the well-being of humans over anything else', 21, '58.33%'],
+          ['5. There should be lows and regulations to govern the development and use of AI technology', 28, '77.798%'],          
+          ['6. AI technology can violate people privacy rights', 26, '72.22%'],          
+          ['7. AI should be allowed to replace human jobs completely', 9, '25.00%'],
+          ['8. Companies and governments should be transparent about how they use AI technology', 26, '72.22%'],
+          ['9. AI technology should be allowed to make decisions that affect people lives without human supervision', 7, '19.44%'],
+          ['10. AI technology can be biased or discriminatory', 22, '61.11%']
+     ]);
+
+      var options = {
+        title: 'Ethical Concerns of AI Technologies (N=36)',
+        chartArea: {width: '60%'},
+        colors: ['#b0120a'],
+        hAxis: {
+          title: 'Frequency',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Ethical Concerns'
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div4'));
+      chart.draw(data, options);
+    }
+
+</script>
+
+<script type="text/javascript">
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
+
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+          ['Significant Future Impact of AI Technologies', 'Frequency', {role: 'annotation'}],
+          ['1. Make jobs easier and more efficent', 3, '8.33%'],
+          ['2. Start to replace jobs that are more repetitive', 8, '22.22%'],
+          ['3. Take and create new jobs', 8, '22.22%'],
+          ['4. It will be implemented into mechanics and many aspects of daily life', 19, '52.78%'],
+          ['5. Help me with ideas to do certain things', 1, '2.78%']         
+     ]);
+
+      var options = {
+        title: 'Ethical Concerns of AI Technologies (N=36)',
+        chartArea: {width: '60%'},
+        colors: ['#1b9e77'],
+        hAxis: {
+          title: 'Frequency',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Ethical Concerns'
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div5'));
+      chart.draw(data, options);
+    }
+
+</script>
+
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Future Impact', 'Response'],
+          ['Yes',     35],
+          ['No',      1]
+        ]);
+
+        var options = {
+          title: 'Significant Impact of AI to Future Career and Daily Life',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Station', 'Percentage', 'Votes', 'Station No', 'Votes'],
+        ['Station 1', 69.44, 25, 'Station 1: SPOT Robotic Dog; Concepts of AI; Ethical Concerns', 25],
+        ['Station 2', 61.11, 22, 'Station 2: Integration of AI & Drones', 22],
+        ['Station 3', 52.78, 19, 'Station 3: AI Apps with aiEDU', 19],
+        ['Station 4', 55.56, 20, 'Station 4: Tips & Tricks of Using AI', 20],
+        ['Station', 50, 10, 'Station 1: SPOT Robotic Dog; Concepts of AI; Ethical Concerns', 1],
+        ['Station', 75, 35, 'Station 1: SPOT Robotic Dog; Concepts of AI; Ethical Concerns', 1]
+
+      ]);
+
+      var options = {
+        title: 'Value of AI Stations (N=36)',
+        hAxis: {title: 'Percentage'},
+        vAxis: {title: 'Votes'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div5'));
+      chart.draw(data, options);
+    }
+    </script>
+
+
+
+
+
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF"> 
+
+<table width="850" height="38" border="0" align="center" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td></td>
+  </tr>
+
+  <tr> 
+    <td><div align="center"><!--start navigation here-->
+      <div class="nav"> 
+	<a href="index.html" style="border-right: 1px solid #666666;">Abstract</a> 
+	<a href="intro.html" style="border-right: 1px solid #666666;">Introduction</a>
+	<a href="literature.html" style="border-right: 1px solid #666666;">Literature Review</a>  
+	<a href="implementation.html" style="border-right: 1px solid #666666;">Implementation</a> 
+	<a href="method.html" style="border-right: 1px solid #666666;">Research Method</a> 
+	<a href="results.html" style="border-right: 1px solid #666666;">Results</a> 
+	<a href="references.html" style="border-right: 1px solid #666666;">References</a>
+
+    </div></td>
+  </tr>
+</table> 
+
+
+
+<table width="850" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="20" style="background-image: url(images/top.gif); background-repeat:no-repeat;">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td class="bodybg">	
+	<table width="848" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="500" height="31"><h1>Title: Learning Experience with Artificial Intelligent (AI) in K-12:  
+A Case Study of A Middle School AI Exploration Day
+</h1></td>
+        <td width="348"><div class="subnav" align="right">
+          
+                         
+        </div>
+        </p></td></tr></table>
+        <h3>Results</h3>
+
+        <p>Among the 57 participants, 36 students responded to the Workshop Feedback Survey and 9 out of 36 students were the 1st, 2nd, and 3rd places winners in the AI-PBL competition. Prior to the path analysis, the assumptions of normality, linearity, multicollinearity, and homoscedesticity were examined and found to be satisfactory. Also, there were no univariate outliers found. Thus, no cases were excluded for a total of 36 cases. Descriptive statistics for the variables, including AI awareness, Motivation (including intrinsic goal orientation, self-efficacy, and task value), Learning Satisfaction, and Workshop Evaluation were obtained and are presented in Table 2. The mean value of AIA indicates that students’ perception of their AI awareness level is in the lower bound before participating in the workshop. The mean values of Motivation (MO), Learning Satisfaction (LS), and Workshop Evaluation (WE) are above 4.16 which indicate students’ overall high motivation of learning AI technologies, and high learning satisfaction and workshop evaluation of learning on the AI Exploration Day. To compare students who won the awards in the competition with other students, students won the awards have higher mean values of motivation to learn AI technologies and higher learning satisfaction and workshop evaluation scores of learning in the workshop while their perception of AI awareness seems to have not much difference.</p>   
+         <p align="center">	<img src="images/table2.jpg" alt="Table 2 Descriptive Statistics" width="500" height="200" border="0" /></p>
+<!-data chart->   
+<script type="text/javascript">
+  google.charts.load('current', {packages:['corechart']});
+  google.charts.setOnLoadCallback(drawExample6);
+
+  function drawExample6() {
+    // Some raw data (not necessarily accurate)
+    var rowData1 = [['Variables', 'All Students', {role: 'annotation'}, 'Winner Groups (1st-3rd)', {role: 'annotation'}],
+                    ['Motivation: Goal Orientation', 4.07, '4.07', 4.22, '4.22'],
+                    ['Motivation: Self Efficacy', 4.07, '4.07', 4.37, '4.37'],
+                    ['Motivation: Task Value', 4.19, '4.19', 4.33, '4.33'],
+                    ['Motivation', 4.11, '4.11', 4.31, '4.31'],
+                    ['Learning Satisfaction', 4.13, '4.13', 4.42, '4.42'],
+                    ['Course Evaluation', 4.27, '4.27', 4.5, '4.5']];
+    var rowData2 = [['Variables', 'All Students', {role: 'annotation'}, 'Winner Groups (1st-3rd)', {role: 'annotation'}],
+                    ['Motivation: Goal Orientation', 4.07, '4.07', 4.22, '4.22'],
+                    ['Motivation: Self Efficacy', 4.07, '4.07', 4.37, '4.37'],
+                    ['Motivation: Task Value', 4.19, '4.19', 4.33, '4.33'],
+                    ['Motivation', 4.11, '4.11', 4.31, '4.31'],
+                    ['Learning Satisfaction', 4.13, '4.13', 4.42, '4.42'],
+                    ['Course Evaluation', 4.27, '4.27', 4.5, '4.5']];
+
+    // Create and populate the data tables.
+    var data = [];
+    data[0] = google.visualization.arrayToDataTable(rowData1);
+    data[1] = google.visualization.arrayToDataTable(rowData2);
+
+    var options = {
+      width: 840,
+      height: 450,
+      vAxis: {title: "Mean Values (Likert Scale 1-5)"},
+      hAxis: {title: "Variables"},
+      seriesType: "bars",
+      series: {5: {type: "line"}},
+      animation:{
+        duration: 1000,
+        easing: 'out'
+      }
+  };
+    var current = 0;
+    // Create and draw the visualization.
+    var chart = new google.visualization.ComboChart(document.getElementById('example6-visualization'));
+    var button = document.getElementById('example6-b1');
+    function drawChart() {
+       // Disabling the button while the chart is drawing.
+      button.disabled = true;
+      google.visualization.events.addListener(chart, 'ready',
+          function() {
+            button.disabled = false;
+            button.value = 'Switch to ' + (current ? 'Mean' : 'Variables');
+          });
+      options['title'] = 'Mean Values of Dependent Variables (N=36)';
+
+      chart.draw(data[current], options);
+    }
+    drawChart();
+
+    button.onclick = function() {
+      current = 1 - current;
+      drawChart();
+    }
+  }
+</script>
+<div id="example6-visualization"></div>
+<button id="example6-b1">N/A</button>
+<br /> 
+
+
+
+         
+        <p>The frequency of students’ responses to examine students’ knowledge of AI technologies were examined. According to Figure 1, above 58.33% of students were able to define AI correctly, while 77.78% of students and 83.33% of students were able to define Machine Learning and Deep Learning correctly. To compare the students with awards, the percentage of students who had correct responses to the knowledge-based definitions tends to be higher than the overall students’ responses (Figure 1).</p>
+   
+<!-data chart->        
+        <h3>Figure 1a. Prior Knowledge Checking</h3>
+        <p>Students were asked what 5 words they can think about when talking about AI. Here are the visualization of the frequency of words that were identified by students. </p>
+        <p>Tool: <a href="https://wordart.com/create" target="_blank">https://wordart.com/create</a>
+        <p align="center">	<img src="images/visualization_5word.jpg" alt="Fives Words about AI" width="800" height="400" border="0" /></p>
+
+    <br /><br />
+
+<!-data chart-> 
+<h3>Figure 1b. Post Knowledge Checking</h3>
+<script type="text/javascript">
+  google.charts.load('current', {packages:['corechart']});
+  google.charts.setOnLoadCallback(drawExample2);
+
+  function drawExample2() {
+    // Some raw data (not necessarily accurate)
+    var rowData1 = [['Concept Definition', 'Correct', {role: 'annotation'}, 'Incorrect', {role: 'annotation'}],
+                    ['Deep Learning(N=36)', 30, '83.33%', 6, '16.67%'],
+                    ['Machine Learning(N=36)', 28, '77.78%', 8, '22.22%'],
+                    ['AI(N=36)', 21, '58.33%', 15, '41.67%']];
+    var rowData2 = [['Concept Definition', 'Correct', {role: 'annotation'}, 'Incorrect', {role: 'annotation'}],
+                    ['Deep Learning(N=9)', 8, '88.89%', 1, '11.11%'],
+                    ['Machine Learning(N=9)', 7, '77.78%', 2, '22.22%'],
+                    ['AI(N=9)', 6, '66.67%', 3, '33.33%']];
+
+    // Create and populate the data tables.
+    var data = [];
+    data[0] = google.visualization.arrayToDataTable(rowData1);
+    data[1] = google.visualization.arrayToDataTable(rowData2);
+
+    var options = {
+      width: 800,
+      height: 450,
+      vAxis: {title: "Student Number"},
+      hAxis: {title: "Concept Definition"},
+      seriesType: "bars",
+      series: {5: {type: "line"}},
+      animation:{
+        duration: 1000,
+        easing: 'out'
+      }
+    };
+    var current = 0;
+    // Create and draw the visualization.
+    var chart = new google.visualization.ComboChart(document.getElementById('example2-visualization'));
+    var button = document.getElementById('example2-b1');
+    function drawChart() {
+       // Disabling the button while the chart is drawing.
+      button.disabled = true;
+      google.visualization.events.addListener(chart, 'ready',
+          function() {
+            button.disabled = false;
+            button.value = 'Switch to ' + (current ? 'N=36' : 'N=9');
+          });
+      options['title'] = 'Post Knowledge Checking';
+
+      chart.draw(data[current], options);
+    }
+    drawChart();
+
+    button.onclick = function() {
+      current = 1 - current;
+      drawChart();
+    }
+  }
+</script>
+<div id="example2-visualization"></div>
+<button id="example2-b1">Switch to N=9 or N=36</button>
+<br />        
+        <p>According to Table 3, the correlations of all the variables were examined. The results indicate that students’ perception of their original lower AI awareness level (before participating in the workshop) is not significantly correlated to most of the variables (AID, DLD, AII, MO, LS, and WE), except students’ accurate response to definition of machine learning. The correlation value of -.363 between the original AI awareness level and accurate response to definition of machine learning indicates a moderate negative linear relationship, which means students perceived themselves with lower AI awareness level before the workshop tends to have accurate definitions of machine learning. Students’ responses to the knowledge-based concepts do not show the significant correlation to their motivation of learning AI technology and learning satisfaction and workshop evaluation score of the workshop experience. Additionally, there are significant positive correlations among motivation of learning AI technologies, learning satisfaction, and workshop evaluation score. It indicates that students with higher learning motivation tend to perceive higher learning satisfaction of the workshop activities and workshop evaluation score, and vice versa. </p>     
+        
+        
+        <h3>Table 3 Correlations among Social Constructs (N=36)</h3>
+        	<p align="center"><img src="images/table3.jpg" alt="Table 3 Correlations among Social Constructs (N=36)" width="800" height="250" border="0" /></p>
+
+         <p>After completing the workshop, students were found to have better understanding of AI technologies, their awareness level of potential benefits, risks, challenges, and ethical concerns of AI technologies were examined. According to Figure 2, students were able to recognize the potential benefits accurately. Above 83.33 (30/36) students were able to successfully identify the potential benefits of AI technologies successfully, while 47.22% (17/36) of students were able to identify all the potential risks/challenges of AI technologies and 80.56% of students were able to identify at least 3 potential risks and challenges.</p>
+
+<!-data chart->        
+        <h3>Figure 2. Potential Benefits and Risks of AI Technologies</h3>
+<script type="text/javascript">
+  google.charts.load('current', {packages:['corechart']});
+  google.charts.setOnLoadCallback(drawExample3);
+
+  function drawExample3() {
+    // Some raw data (not necessarily accurate)
+    var rowData1 = [
+          ['Potential Benefits of AI (N=36)', 'Frequency of Response', {role: 'annotation'}, {role: 'annotation'}],
+          ['B1. Increased privacy and security for personal data', 11, '30.56%', '11'],
+          ['B2. Improved accuracy in tasks that require repetitive actions', 34, '94.44%', '34'],
+          ['B3. Enhanced communication between people from different countries and cultures', 30, '83.33%', '30'],
+          ['B4. Increased job opportunities for humans', 6, '16.67%', '6'],
+          ['B5. Improved decision-making through data analysis', 32, '88.89%', '32'],
+          ['B6. Increased efficiency in various industries, such as healthcare and finance', 33, '91.67%', '33']];    
+    var rowData2 = [
+          ['Potential Risks/Challenges of AI (N=36)', 'Frequency of Response', {role: 'annotation'}, {role: 'annotation'}],
+          ['R1. Limited access to AI technology for certain populations', 17, '47.22%', '17'],
+          ['R2. Inability to control superintelligent AI', 20, '55.56%', '20'],
+          ['R3. Overreliance on AI and loss of human skills', 29, '80.56%', 29],
+          ['R4. Loss of privacy and security', 34, '94.44%', '34'],
+          ['R5. Bias and discrimination in decision-making', 22, '61.11%', '22'],
+          ['R6. Job displacement and unemployment', 36, '100%', '36']];
+
+    // Create and populate the data tables.
+    var data = [];
+    data[0] = google.visualization.arrayToDataTable(rowData1);
+    data[1] = google.visualization.arrayToDataTable(rowData2);
+
+    var options = {
+      width: 800,
+      height: 450,
+      vAxis: {title: "Frequency of Response"},
+      hAxis: {title: "Benefits/Risks"},
+      seriesType: "bars",
+      series: {5: {type: "line"}},
+      animation:{
+        duration: 1000,
+        easing: 'out'
+      }
+    };
+    var current = 0;
+    // Create and draw the visualization.
+    var chart = new google.visualization.ComboChart(document.getElementById('example3-visualization'));
+    var button = document.getElementById('example3-b1');
+    function drawChart() {
+       // Disabling the button while the chart is drawing.
+      button.disabled = true;
+      google.visualization.events.addListener(chart, 'ready',
+          function() {
+            button.disabled = false;
+            button.value = 'Switch to ' + (current ? 'Benefits' : 'Risks');
+          });
+      options['title'] = 'Potential Benefits and Risks of AI Technologies (N=36)';
+
+      chart.draw(data[current], options);
+    }
+    drawChart();
+
+    button.onclick = function() {
+      current = 1 - current;
+      drawChart();
+    }
+  }
+</script>
+<div id="example3-visualization"></div>
+<button id="example3-b1">Switch to Benefits or Risks</button>
+<br /> 
+<br />
+
+
+<p>Based upon Figure 3, students were able to recognize the ethical concerns successfully after participating in the workshop. Except the option 1 regarding to using AI technology to create autonomous weapons, above 52.78% of students were able to identify all the other ethical concerns of AI application in the real world. For future impact of AI technologies, 97.22% of students confirmed that AI have a significant impact on their future career and daily life. Students identified 5 aspects which have most impact for the future career and life. Particularly, direct impact to their daily life experience has been recognized by 54.29% of students.</p>
+	
+<!-data chart->        
+<h3>Figure 3a. Ethical Concerns AI Technologies</h3>
+<div id="chart_div4" style="width: 840px; height: 1000px;"></div>
+
+
+<h3>Figure 3b. Future Impact of AI Technologies</h3>
+<div id="piechart_3d" style="width: 500px; height: 300px;"></div>
+
+<div id="chart_div5" style="width: 840px; height: 500px;"></div>
+
+
+<p>Last, for the overall learning satisfaction of all the 4 stations (Figure 4), above 52.78% of students valued what they learned from all the stations. Particularly, 69.44% of students rated station 1 as valuable station while 61.11% of students rated station 2 as the second valuable station.</p>
+
+
+<!-data chart->        
+<h3>Figure 4. Value of Stations</h3>
+    <div id="series_chart_div5" style="width: 800px; height: 450px;"></div>
+
+
+	<p class="top"><a href="#top">Top </a></p></td></tr>
+
+  <tr>
+    <td height="20" style="background-image: url(images/bottom.gif); background-repeat:no-repeat;">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="850" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td colspan="2">
+      <p align="center" class="footnote">
+	<a href="index.html">Abstract</a> | 
+    <a href="intro.html">Introduction</a> |
+	<a href="literature.html">Literature Review</a> | 
+	<a href="implementation.html">Implementation</a> | 
+	<a href="method.html">Research Method</a> | 
+	<a href="results.html">Results</a> | 
+	<a href="references.html">References</a>  
+</p>
+	
+
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td><p class="footnote">E-mail: <a href="mailto:ichuntsai65@gmail.com">ichuntsai65@gmail.com</a><br />
+    <td><p align="right" class="footnote">&copy; 2024 I-Chun Tsai, University of Akron <br />
+        
+        Last Revised: March 4, 2024
+    </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
