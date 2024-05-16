@@ -1,0 +1,369 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0041)http://web.missouri.edu/~itch9/index.html -->
+
+<html>
+
+<head><title>KOSKO: Results</title>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8"><link 
+href="stylecss.css" type="text/css" rel="stylesheet">
+<meta content="MSHTML 6.00.6000.16481" name=GENERATOR>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+}
+-->
+</style>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Future Impact', 'Response', 'Percentage'],
+          ['Brazil: 42.1%',     8, 42.1],
+          ['USA: 57.9%',      11, 57.9]
+        ]);
+
+        var options = {
+          title: 'No. of Participants',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+
+<script type="text/javascript">
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
+
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+          ['Level of Effectiveness', 'Frequency', {role: 'annotation'}],
+          ['Not Effective at all', 1, '5.3%'],
+          ['Somewhat Effective', 4, '21.1%'],
+          ['Effective', 6, '31.6%'],
+          ['Very Effective', 8, '42.1%']
+     ]);
+
+      var options = {
+        title: 'Effectiveness to develop understanding of designing units and lesson plans related to global education and SDGs (N=19)',
+        chartArea: {width: '60%'},
+        colors: ['#b0120a'],
+        hAxis: {
+          title: 'Frequency',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Effectiveness'
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div4'));
+      chart.draw(data, options);
+    }
+
+</script>
+
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Phase', 'Percentage', 'Votes', 'Phase:', 'Votes'],
+        ['Phase 0', 110, 20, 'Phase 0', 20],
+        ['Phase 1', 100, 19, '1: Self Introduction/Educational System', 19],
+        ['Phase 2', 89.5, 17, '2: Meet your Partners @ Goolge Meet', 17],
+        ['Phase 3: BR-R', 80, 16, '3: BR-Review GLUP', 16],
+        ['Phase 3: BR-P', 79, 15, '3: BR-Provide feedback', 15],
+        ['Phase 3: BR-R', 81, 16, '3: BR-Review Authentic text/materials', 16],
+        ['Phase 3: USA-R', 82, 16, '3: USA-Review GLUP feedback', 16],
+        ['Phase 3: USA-R', 83, 16, '3: USA-Review Lesson Plan idea', 16],
+        ['Phase 3: USA-S', 84, 16, '3: USA-Suggest Authentic text/materials', 16],
+        ['Phase 0', 70, 12, 'Phase 0', 12],
+
+      ]);
+
+      var options = {
+        title: 'Learning Concepts of Global Education (N=19)',
+        hAxis: {title: 'Percentage'},
+        vAxis: {title: 'Votes'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div5'));
+      chart.draw(data, options);
+    }
+    </script>
+
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Phase', 'Percentage', 'Votes', 'Phase:', 'Votes'],
+        ['Phase 0', 110, 20, 'Phase 0', 20],
+        ['Phase 1', 97, 18, '1: Self Introduction/Educational System', 18],
+        ['Phase 2', 95, 18, '2: Meet your Partners @ Goolge Meet', 18],
+        ['Phase 3: BR-R', 90, 17, '3: BR-Review GLUP', 17],
+        ['Phase 3: BR-P', 91, 17, '3: BR-Provide feedback', 17],
+        ['Phase 3: BR-R', 92, 17, '3: BR-Review Authentic text/materials', 17],
+        ['Phase 3: USA-R', 81, 16, '3: USA-Review GLUP feedback', 16],
+        ['Phase 3: USA-R', 83, 16, '3: USA-Review Lesson Plan idea', 16],
+        ['Phase 3: USA-S', 84, 16, '3: USA-Suggest Authentic text/materials', 16],
+        ['Phase 0', 70, 12, 'Phase 0', 12],
+
+      ]);
+
+      var options = {
+        title: 'Learning Concepts of SDGs (N=19)',
+        hAxis: {title: 'Percentage'},
+        vAxis: {title: 'Votes'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div6'));
+      chart.draw(data, options);
+    }
+    </script>
+
+<script type="text/javascript">
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
+
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+          ['Learning Satisfaction', 'Frequency', {role: 'annotation'}, {role: 'annotation'}],
+          ['Not Satisfied', 1, '5.3%', '1'],
+          ['Somewhat Satisfied', 2, '10.5%', '2'],
+          ['Satisfied', 10, '52.6%', '10'],
+          ['Very Satisfied', 6, '31.6%', '6']         
+     ]);
+
+      var options = {
+        title: 'Learning Satisfaction with overall collaborative learning experience with your partners from the other country (N=19)',
+        chartArea: {width: '60%'},
+        colors: ['#1b9e77'],
+        hAxis: {
+          title: 'Frequency',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Learning Satisfaction'
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div5'));
+      chart.draw(data, options);
+    }
+
+</script>
+
+<script type="text/javascript">
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
+
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+          ['Motivation', 'Frequency', {role: 'annotation'}, {role: 'annotation'}],
+          ['Not Satisfied', 2, '11.1%', '2'],
+          ['Somewhat Satisfied', 1, '5.3%', '1'],
+          ['Satisfied', 8, '44.4%', '8'],
+          ['Very Satisfied', 7, '38.9%', '7']         
+     ]);
+
+      var options = {
+        title: 'Motivation promoted by KOSKO to learn more about global education and SDGs (N=19)',
+        chartArea: {width: '60%'},
+        colors: ['#1b9e77'],
+        hAxis: {
+          title: 'Frequency',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Learning Satisfaction'
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div6'));
+      chart.draw(data, options);
+    }
+
+</script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Technologies', 'Not Effective at all', 'Somewhat Effective', 'Effective', 'Very Effective'],
+          ['Phase 1: Padlet', 0, 6, 4, 9],
+          ['Phase 2: Google Meet', 2, 3, 4, 10],
+          ['Phase 3: Google Sheets', 1, 5, 6, 7],
+          ['Phase 3: Padlet', 1, 4, 4, 10]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Effectiveness of Technologies',
+           }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF"> 
+
+
+<table width="850" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="20" style="background-image: url(images/top.gif); background-repeat:no-repeat;">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td class="bodybg">	
+	<table width="848" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="500" height="31"><h1>Title: iEARN KOSKO Project- Brazil v.s. USA
+</h1></td>
+        <td width="348"><div class="subnav" align="right">
+          
+                         
+        </div>
+        </p></td></tr></table>
+        <h3>Results</h3>
+
+<h3>Figure 1. Participants</h3>
+<div id="piechart_3d" style="width: 500px; height: 300px;"></div>
+
+
+<h3>Figure 2. Learning Concept of Global Education</h3>
+    <div id="series_chart_div5" style="width: 800px; height: 450px;"></div>
+
+<h3>Figure 3. Learning Concept of SDGs</h3>
+    <div id="series_chart_div6" style="width: 800px; height: 450px;"></div>
+
+
+         
+
+<!-data chart-> 
+        <h3>Figure 4. Effectiveness of KOSKO Activities and Partner Feedback</h3>
+<script type="text/javascript">
+  google.charts.load('current', {packages:['corechart']});
+  google.charts.setOnLoadCallback(drawExample3);
+
+  function drawExample3() {
+    // Some raw data (not necessarily accurate)
+    var rowData1 = [
+          ['Level of Effectiveness to Design Unit and Lesson Plans for Global Education (N=19)', 'Frequency of Response', {role: 'annotation'}, {role: 'annotation'}],
+          ['Not Effective at all', 1, '5.3%', '1'],
+          ['Somewhat Effective', 4, '21.1%', '4'],
+          ['Effective', 6, '31.6%', '6'],
+          ['Very Effective', 8, '42.1%', '30']];    
+    var rowData2 = [
+          ['Feedback from your partners help you improve your unit/lesson plan (N=19)', 'Frequency of Response', {role: 'annotation'}, {role: 'annotation'}],
+          ['Not Effective at all', 4, '21.1%', '4'],
+          ['Somewhat Effective', 1, '5.3%', '1'],
+          ['Effective', 9, '47.4%', '9'],
+          ['Very Effective', 5, '26.3%', '5']];    
+
+    // Create and populate the data tables.
+    var data = [];
+    data[0] = google.visualization.arrayToDataTable(rowData1);
+    data[1] = google.visualization.arrayToDataTable(rowData2);
+
+    var options = {
+      width: 800,
+      height: 450,
+      vAxis: {title: "Level of Effectiveness"},
+      hAxis: {title: "Effective to Design Unit/Lesson Plans"},
+      seriesType: "bars",
+      series: {5: {type: "line"}},
+      animation:{
+        duration: 1000,
+        easing: 'out'
+      }
+    };
+    var current = 0;
+    // Create and draw the visualization.
+    var chart = new google.visualization.ComboChart(document.getElementById('example3-visualization'));
+    var button = document.getElementById('example3-b1');
+    function drawChart() {
+       // Disabling the button while the chart is drawing.
+      button.disabled = true;
+      google.visualization.events.addListener(chart, 'ready',
+          function() {
+            button.disabled = false;
+            button.value = 'Switch to ' + (current ? 'KOSKO Activities' : 'Partner Feedback');
+          });
+      options['title'] = 'Effectiveness from KOSKO activities/ Partner Feedback (N=19)';
+
+      chart.draw(data[current], options);
+    }
+    drawChart();
+
+    button.onclick = function() {
+      current = 1 - current;
+      drawChart();
+    }
+  }
+</script>
+<div id="example3-visualization"></div>
+<button id="example3-b1">Switch to KOSKO Activities or Partner Feedback</button>
+<br /> 
+<br />
+
+<!-data chart->        
+
+        <h3>Figure 5. Learning Satisfaction of overall collaborative learning experience with your partners from the other country</h3>
+
+<div id="chart_div5" style="width: 840px; height: 500px;"></div>
+
+        <h3>Figure 6. Motivation promoted by KOSKO to learn more about global education and SDGs</h3>
+
+<div id="chart_div6" style="width: 840px; height: 500px;"></div>
+
+<h3>Figure 7. Effectiveness of Technology Tools</h3>
+
+    <div align="center" id="columnchart_material" style="width: 800px; height: 500px;"></div>
+
+
+	<p class="top"><a href="#top">Top </a></p></td></tr>
+
+	<p class="top"><a href="#top">Top </a></p></td></tr>
+
+  <tr>
+    <td height="20" style="background-image: url(images/bottom.gif); background-repeat:no-repeat;">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td><p class="footnote">E-mail: <a href="mailto:ichuntsai65@gmail.com">ichuntsai65@gmail.com</a><br />
+    <td><p align="right" class="footnote">&copy; 2024 I-Chun Tsai, University of Akron <br />
+        
+        Last Revised: March 4, 2024
+    </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
